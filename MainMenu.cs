@@ -261,7 +261,7 @@ namespace SCPSL_ServerConfigEditor
             }
             else
             {
-                playerList.Items.Add($"{player}@{platform}");
+                playerList.Items.Add($"{player}@{platform}: {playerRoleBox.Text}");
 
                 players.Add(new[] { $"{player}@{platform}", playerRoleBox.Text });
 
