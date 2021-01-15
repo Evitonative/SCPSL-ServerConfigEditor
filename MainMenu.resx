@@ -1,0 +1,3800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;roleLable.Name" xml:space="preserve">
+    <value>roleLable</value>
+  </data>
+  <data name="&gt;&gt;roleLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roleLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;roleLable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;playerRoleBox.Name" xml:space="preserve">
+    <value>playerRoleBox</value>
+  </data>
+  <data name="&gt;&gt;playerRoleBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playerRoleBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;playerRoleBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;isDiscordId.Name" xml:space="preserve">
+    <value>isDiscordId</value>
+  </data>
+  <data name="&gt;&gt;isDiscordId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isDiscordId.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;isDiscordId.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Name" xml:space="preserve">
+    <value>removeButton</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;removeButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;addPlayerButton.Name" xml:space="preserve">
+    <value>addPlayerButton</value>
+  </data>
+  <data name="&gt;&gt;addPlayerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addPlayerButton.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;addPlayerButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;addPlayerBox.Name" xml:space="preserve">
+    <value>addPlayerBox</value>
+  </data>
+  <data name="&gt;&gt;addPlayerBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addPlayerBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;addPlayerBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;playerList.Name" xml:space="preserve">
+    <value>playerList</value>
+  </data>
+  <data name="&gt;&gt;playerList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playerList.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;playerList.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;allow_central_server_commands_as_ServerConsoleCommands.Name" xml:space="preserve">
+    <value>allow_central_server_commands_as_ServerConsoleCommands</value>
+  </data>
+  <data name="&gt;&gt;allow_central_server_commands_as_ServerConsoleCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;allow_central_server_commands_as_ServerConsoleCommands.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;allow_central_server_commands_as_ServerConsoleCommands.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;centralCommandsLable.Name" xml:space="preserve">
+    <value>centralCommandsLable</value>
+  </data>
+  <data name="&gt;&gt;centralCommandsLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;centralCommandsLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;centralCommandsLable.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;rolePassordLable.Name" xml:space="preserve">
+    <value>rolePassordLable</value>
+  </data>
+  <data name="&gt;&gt;rolePassordLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rolePassordLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;rolePassordLable.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;passwordLable.Name" xml:space="preserve">
+    <value>passwordLable</value>
+  </data>
+  <data name="&gt;&gt;passwordLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;passwordLable.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;rolePassworldSelectBox.Name" xml:space="preserve">
+    <value>rolePassworldSelectBox</value>
+  </data>
+  <data name="&gt;&gt;rolePassworldSelectBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rolePassworldSelectBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;rolePassworldSelectBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;otherTitle.Name" xml:space="preserve">
+    <value>otherTitle</value>
+  </data>
+  <data name="&gt;&gt;otherTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;otherTitle.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;otherTitle.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;raPasswordInfoLable.Name" xml:space="preserve">
+    <value>raPasswordInfoLable</value>
+  </data>
+  <data name="&gt;&gt;raPasswordInfoLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;raPasswordInfoLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;raPasswordInfoLable.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;raPassword.Name" xml:space="preserve">
+    <value>raPassword</value>
+  </data>
+  <data name="&gt;&gt;raPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;raPassword.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;raPassword.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ExportButton.Name" xml:space="preserve">
+    <value>ExportButton</value>
+  </data>
+  <data name="&gt;&gt;ExportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExportButton.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ExportButton.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorTempDisable.Name" xml:space="preserve">
+    <value>FriendlyFireDetectorTempDisable</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorTempDisable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorTempDisable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorTempDisable.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorImmunity.Name" xml:space="preserve">
+    <value>FriendlyFireDetectorImmunity</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorImmunity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorImmunity.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorImmunity.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ffDetectorLable.Name" xml:space="preserve">
+    <value>ffDetectorLable</value>
+  </data>
+  <data name="&gt;&gt;ffDetectorLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ffDetectorLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ffDetectorLable.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;AFKImmunity.Name" xml:space="preserve">
+    <value>AFKImmunity</value>
+  </data>
+  <data name="&gt;&gt;AFKImmunity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AFKImmunity.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;AFKImmunity.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ServerConsoleCommands.Name" xml:space="preserve">
+    <value>ServerConsoleCommands</value>
+  </data>
+  <data name="&gt;&gt;ServerConsoleCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerConsoleCommands.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ServerConsoleCommands.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;ServerConfigs.Name" xml:space="preserve">
+    <value>ServerConfigs</value>
+  </data>
+  <data name="&gt;&gt;ServerConfigs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerConfigs.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ServerConfigs.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;PermissionsManagement.Name" xml:space="preserve">
+    <value>PermissionsManagement</value>
+  </data>
+  <data name="&gt;&gt;PermissionsManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PermissionsManagement.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;PermissionsManagement.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;adminLable.Name" xml:space="preserve">
+    <value>adminLable</value>
+  </data>
+  <data name="&gt;&gt;adminLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;adminLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;adminLable.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;SetGroup.Name" xml:space="preserve">
+    <value>SetGroup</value>
+  </data>
+  <data name="&gt;&gt;SetGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SetGroup.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;SetGroup.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;PlayerSensitiveDataAccess.Name" xml:space="preserve">
+    <value>PlayerSensitiveDataAccess</value>
+  </data>
+  <data name="&gt;&gt;PlayerSensitiveDataAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlayerSensitiveDataAccess.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;PlayerSensitiveDataAccess.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;GameplayData.Name" xml:space="preserve">
+    <value>GameplayData</value>
+  </data>
+  <data name="&gt;&gt;GameplayData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameplayData.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;GameplayData.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Noclip.Name" xml:space="preserve">
+    <value>Noclip</value>
+  </data>
+  <data name="&gt;&gt;Noclip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Noclip.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Noclip.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;Overwatch.Name" xml:space="preserve">
+    <value>Overwatch</value>
+  </data>
+  <data name="&gt;&gt;Overwatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Overwatch.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Overwatch.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;moderationLable.Name" xml:space="preserve">
+    <value>moderationLable</value>
+  </data>
+  <data name="&gt;&gt;moderationLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;moderationLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;moderationLable.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenGlobalBadges.Name" xml:space="preserve">
+    <value>ViewHiddenGlobalBadges</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenGlobalBadges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenGlobalBadges.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenGlobalBadges.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenBadges.Name" xml:space="preserve">
+    <value>ViewHiddenBadges</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenBadges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenBadges.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenBadges.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;badgesLable.Name" xml:space="preserve">
+    <value>badgesLable</value>
+  </data>
+  <data name="&gt;&gt;badgesLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;badgesLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;badgesLable.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;AdminChat.Name" xml:space="preserve">
+    <value>AdminChat</value>
+  </data>
+  <data name="&gt;&gt;AdminChat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdminChat.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;AdminChat.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;Announcer.Name" xml:space="preserve">
+    <value>Announcer</value>
+  </data>
+  <data name="&gt;&gt;Announcer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Announcer.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Announcer.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Broadcasting.Name" xml:space="preserve">
+    <value>Broadcasting</value>
+  </data>
+  <data name="&gt;&gt;Broadcasting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Broadcasting.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Broadcasting.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;communicationLable.Name" xml:space="preserve">
+    <value>communicationLable</value>
+  </data>
+  <data name="&gt;&gt;communicationLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;communicationLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;communicationLable.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;Effects.Name" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="&gt;&gt;Effects.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Effects.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Effects.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;PlayersManagement.Name" xml:space="preserve">
+    <value>PlayersManagement</value>
+  </data>
+  <data name="&gt;&gt;PlayersManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlayersManagement.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;PlayersManagement.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;FacilityManagement.Name" xml:space="preserve">
+    <value>FacilityManagement</value>
+  </data>
+  <data name="&gt;&gt;FacilityManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FacilityManagement.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;FacilityManagement.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;RoundEvents.Name" xml:space="preserve">
+    <value>RoundEvents</value>
+  </data>
+  <data name="&gt;&gt;RoundEvents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoundEvents.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;RoundEvents.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;RespawnEvents.Name" xml:space="preserve">
+    <value>RespawnEvents</value>
+  </data>
+  <data name="&gt;&gt;RespawnEvents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RespawnEvents.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;RespawnEvents.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;WarheadEvents.Name" xml:space="preserve">
+    <value>WarheadEvents</value>
+  </data>
+  <data name="&gt;&gt;WarheadEvents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WarheadEvents.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;WarheadEvents.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;GivingItems.Name" xml:space="preserve">
+    <value>GivingItems</value>
+  </data>
+  <data name="&gt;&gt;GivingItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GivingItems.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;GivingItems.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;roundLable.Name" xml:space="preserve">
+    <value>roundLable</value>
+  </data>
+  <data name="&gt;&gt;roundLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roundLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;roundLable.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;ForceclassWithoutRestrictions.Name" xml:space="preserve">
+    <value>ForceclassWithoutRestrictions</value>
+  </data>
+  <data name="&gt;&gt;ForceclassWithoutRestrictions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ForceclassWithoutRestrictions.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ForceclassWithoutRestrictions.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;ForceclassToSpectator.Name" xml:space="preserve">
+    <value>ForceclassToSpectator</value>
+  </data>
+  <data name="&gt;&gt;ForceclassToSpectator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ForceclassToSpectator.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ForceclassToSpectator.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;ForceclassSelf.Name" xml:space="preserve">
+    <value>ForceclassSelf</value>
+  </data>
+  <data name="&gt;&gt;ForceclassSelf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ForceclassSelf.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ForceclassSelf.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;playerManipulationLable.Name" xml:space="preserve">
+    <value>playerManipulationLable</value>
+  </data>
+  <data name="&gt;&gt;playerManipulationLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playerManipulationLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;playerManipulationLable.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;LongTermBanning.Name" xml:space="preserve">
+    <value>LongTermBanning</value>
+  </data>
+  <data name="&gt;&gt;LongTermBanning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LongTermBanning.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;LongTermBanning.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;banningLable.Name" xml:space="preserve">
+    <value>banningLable</value>
+  </data>
+  <data name="&gt;&gt;banningLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;banningLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;banningLable.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;BanningUpToDay.Name" xml:space="preserve">
+    <value>BanningUpToDay</value>
+  </data>
+  <data name="&gt;&gt;BanningUpToDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BanningUpToDay.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;BanningUpToDay.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;permsLink.Name" xml:space="preserve">
+    <value>permsLink</value>
+  </data>
+  <data name="&gt;&gt;permsLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;permsLink.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;permsLink.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;KickingAndShortTermBanning.Name" xml:space="preserve">
+    <value>KickingAndShortTermBanning</value>
+  </data>
+  <data name="&gt;&gt;KickingAndShortTermBanning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KickingAndShortTermBanning.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;KickingAndShortTermBanning.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;hiddenBox.Name" xml:space="preserve">
+    <value>hiddenBox</value>
+  </data>
+  <data name="&gt;&gt;hiddenBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hiddenBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;hiddenBox.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;colorBox.Name" xml:space="preserve">
+    <value>colorBox</value>
+  </data>
+  <data name="&gt;&gt;colorBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;colorBox.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;kickPowerBox.Name" xml:space="preserve">
+    <value>kickPowerBox</value>
+  </data>
+  <data name="&gt;&gt;kickPowerBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kickPowerBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;kickPowerBox.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPowerBox.Name" xml:space="preserve">
+    <value>requiredKickPowerBox</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPowerBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPowerBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPowerBox.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;badgeBox.Name" xml:space="preserve">
+    <value>badgeBox</value>
+  </data>
+  <data name="&gt;&gt;badgeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;badgeBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;badgeBox.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;addRoleBox.Name" xml:space="preserve">
+    <value>addRoleBox</value>
+  </data>
+  <data name="&gt;&gt;addRoleBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addRoleBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;addRoleBox.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;coverBox.Name" xml:space="preserve">
+    <value>coverBox</value>
+  </data>
+  <data name="&gt;&gt;coverBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coverBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;coverBox.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;colorLable.Name" xml:space="preserve">
+    <value>colorLable</value>
+  </data>
+  <data name="&gt;&gt;colorLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;colorLable.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPower.Name" xml:space="preserve">
+    <value>requiredKickPower</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPower.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPower.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;kickPowerLable.Name" xml:space="preserve">
+    <value>kickPowerLable</value>
+  </data>
+  <data name="&gt;&gt;kickPowerLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kickPowerLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;kickPowerLable.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;hiddenLable.Name" xml:space="preserve">
+    <value>hiddenLable</value>
+  </data>
+  <data name="&gt;&gt;hiddenLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hiddenLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;hiddenLable.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;coverLable.Name" xml:space="preserve">
+    <value>coverLable</value>
+  </data>
+  <data name="&gt;&gt;coverLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coverLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;coverLable.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;badgeLable.Name" xml:space="preserve">
+    <value>badgeLable</value>
+  </data>
+  <data name="&gt;&gt;badgeLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;badgeLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;badgeLable.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;removeRole.Name" xml:space="preserve">
+    <value>removeRole</value>
+  </data>
+  <data name="&gt;&gt;removeRole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeRole.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;removeRole.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;addRoleButton.Name" xml:space="preserve">
+    <value>addRoleButton</value>
+  </data>
+  <data name="&gt;&gt;addRoleButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addRoleButton.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;addRoleButton.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;roleList.Name" xml:space="preserve">
+    <value>roleList</value>
+  </data>
+  <data name="&gt;&gt;roleList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roleList.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;roleList.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;roles_text.Name" xml:space="preserve">
+    <value>roles_text</value>
+  </data>
+  <data name="&gt;&gt;roles_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roles_text.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;roles_text.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;northwood_perms.Name" xml:space="preserve">
+    <value>northwood_perms</value>
+  </data>
+  <data name="&gt;&gt;northwood_perms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;northwood_perms.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;northwood_perms.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_bypass_geoblocking.Name" xml:space="preserve">
+    <value>enable_banteam_bypass_geoblocking</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_bypass_geoblocking.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_bypass_geoblocking.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_bypass_geoblocking.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_reserved_slots.Name" xml:space="preserve">
+    <value>enable_banteam_reserved_slots</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_reserved_slots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_reserved_slots.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_reserved_slots.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_access.Name" xml:space="preserve">
+    <value>enable_banteam_access</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_access.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_access.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_access.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;enable_manager_access.Name" xml:space="preserve">
+    <value>enable_manager_access</value>
+  </data>
+  <data name="&gt;&gt;enable_manager_access.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_manager_access.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_manager_access.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;enable_staff_access.Name" xml:space="preserve">
+    <value>enable_staff_access</value>
+  </data>
+  <data name="&gt;&gt;enable_staff_access.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_staff_access.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_staff_access.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="raConf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="raConf.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="raConf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1053, 675</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="raConf.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raConf.Text" xml:space="preserve">
+    <value>Remote Admin Configuration</value>
+  </data>
+  <data name="&gt;&gt;raConf.Name" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;raConf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;raConf.Parent" xml:space="preserve">
+    <value>configTabs</value>
+  </data>
+  <data name="&gt;&gt;raConf.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ExportButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ExportButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>970, 7</value>
+  </data>
+  <data name="ExportButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="ExportButton.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="ExportButton.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;ExportButton.Name" xml:space="preserve">
+    <value>ExportButton</value>
+  </data>
+  <data name="&gt;&gt;ExportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExportButton.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ExportButton.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="FriendlyFireDetectorTempDisable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FriendlyFireDetectorTempDisable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FriendlyFireDetectorTempDisable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 616</value>
+  </data>
+  <data name="FriendlyFireDetectorTempDisable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 17</value>
+  </data>
+  <data name="FriendlyFireDetectorTempDisable.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="FriendlyFireDetectorTempDisable.Text" xml:space="preserve">
+    <value>FriendlyFireDetectorTempDisable</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorTempDisable.Name" xml:space="preserve">
+    <value>FriendlyFireDetectorTempDisable</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorTempDisable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorTempDisable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorTempDisable.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="FriendlyFireDetectorImmunity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FriendlyFireDetectorImmunity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FriendlyFireDetectorImmunity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 593</value>
+  </data>
+  <data name="FriendlyFireDetectorImmunity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 17</value>
+  </data>
+  <data name="FriendlyFireDetectorImmunity.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="FriendlyFireDetectorImmunity.Text" xml:space="preserve">
+    <value>FriendlyFireDetectorImmunity</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorImmunity.Name" xml:space="preserve">
+    <value>FriendlyFireDetectorImmunity</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorImmunity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorImmunity.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;FriendlyFireDetectorImmunity.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="ffDetectorLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ffDetectorLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="ffDetectorLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ffDetectorLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 570</value>
+  </data>
+  <data name="ffDetectorLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="ffDetectorLable.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="ffDetectorLable.Text" xml:space="preserve">
+    <value>Friendly Fire Detector</value>
+  </data>
+  <data name="&gt;&gt;ffDetectorLable.Name" xml:space="preserve">
+    <value>ffDetectorLable</value>
+  </data>
+  <data name="&gt;&gt;ffDetectorLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ffDetectorLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ffDetectorLable.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="AFKImmunity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AFKImmunity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AFKImmunity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 594</value>
+  </data>
+  <data name="AFKImmunity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="AFKImmunity.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="AFKImmunity.Text" xml:space="preserve">
+    <value>AFKImmunity</value>
+  </data>
+  <data name="&gt;&gt;AFKImmunity.Name" xml:space="preserve">
+    <value>AFKImmunity</value>
+  </data>
+  <data name="&gt;&gt;AFKImmunity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AFKImmunity.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;AFKImmunity.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ServerConsoleCommands.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ServerConsoleCommands.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ServerConsoleCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 571</value>
+  </data>
+  <data name="ServerConsoleCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 17</value>
+  </data>
+  <data name="ServerConsoleCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="ServerConsoleCommands.Text" xml:space="preserve">
+    <value>ServerConsoleCommands</value>
+  </data>
+  <data name="&gt;&gt;ServerConsoleCommands.Name" xml:space="preserve">
+    <value>ServerConsoleCommands</value>
+  </data>
+  <data name="&gt;&gt;ServerConsoleCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerConsoleCommands.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ServerConsoleCommands.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ServerConfigs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ServerConfigs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ServerConfigs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 548</value>
+  </data>
+  <data name="ServerConfigs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="ServerConfigs.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="ServerConfigs.Text" xml:space="preserve">
+    <value>ServerConfigs</value>
+  </data>
+  <data name="&gt;&gt;ServerConfigs.Name" xml:space="preserve">
+    <value>ServerConfigs</value>
+  </data>
+  <data name="&gt;&gt;ServerConfigs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerConfigs.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ServerConfigs.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="PermissionsManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PermissionsManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PermissionsManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 525</value>
+  </data>
+  <data name="PermissionsManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 17</value>
+  </data>
+  <data name="PermissionsManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="PermissionsManagement.Text" xml:space="preserve">
+    <value>PermissionsManagement</value>
+  </data>
+  <data name="&gt;&gt;PermissionsManagement.Name" xml:space="preserve">
+    <value>PermissionsManagement</value>
+  </data>
+  <data name="&gt;&gt;PermissionsManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PermissionsManagement.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;PermissionsManagement.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="adminLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="adminLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="adminLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="adminLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 479</value>
+  </data>
+  <data name="adminLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 20</value>
+  </data>
+  <data name="adminLable.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="adminLable.Text" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="&gt;&gt;adminLable.Name" xml:space="preserve">
+    <value>adminLable</value>
+  </data>
+  <data name="&gt;&gt;adminLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;adminLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;adminLable.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="SetGroup.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SetGroup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SetGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 502</value>
+  </data>
+  <data name="SetGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="SetGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="SetGroup.Text" xml:space="preserve">
+    <value>SetGroup</value>
+  </data>
+  <data name="&gt;&gt;SetGroup.Name" xml:space="preserve">
+    <value>SetGroup</value>
+  </data>
+  <data name="&gt;&gt;SetGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SetGroup.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;SetGroup.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="PlayerSensitiveDataAccess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PlayerSensitiveDataAccess.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PlayerSensitiveDataAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 550</value>
+  </data>
+  <data name="PlayerSensitiveDataAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 17</value>
+  </data>
+  <data name="PlayerSensitiveDataAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="PlayerSensitiveDataAccess.Text" xml:space="preserve">
+    <value>PlayerSensitiveDataAccess</value>
+  </data>
+  <data name="&gt;&gt;PlayerSensitiveDataAccess.Name" xml:space="preserve">
+    <value>PlayerSensitiveDataAccess</value>
+  </data>
+  <data name="&gt;&gt;PlayerSensitiveDataAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlayerSensitiveDataAccess.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;PlayerSensitiveDataAccess.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="GameplayData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GameplayData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GameplayData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 526</value>
+  </data>
+  <data name="GameplayData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="GameplayData.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="GameplayData.Text" xml:space="preserve">
+    <value>GameplayData</value>
+  </data>
+  <data name="&gt;&gt;GameplayData.Name" xml:space="preserve">
+    <value>GameplayData</value>
+  </data>
+  <data name="&gt;&gt;GameplayData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameplayData.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;GameplayData.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="Noclip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Noclip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Noclip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 501</value>
+  </data>
+  <data name="Noclip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="Noclip.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="Noclip.Text" xml:space="preserve">
+    <value>Noclip</value>
+  </data>
+  <data name="&gt;&gt;Noclip.Name" xml:space="preserve">
+    <value>Noclip</value>
+  </data>
+  <data name="&gt;&gt;Noclip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Noclip.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Noclip.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Overwatch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Overwatch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Overwatch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 478</value>
+  </data>
+  <data name="Overwatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="Overwatch.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="Overwatch.Text" xml:space="preserve">
+    <value>Overwatch</value>
+  </data>
+  <data name="&gt;&gt;Overwatch.Name" xml:space="preserve">
+    <value>Overwatch</value>
+  </data>
+  <data name="&gt;&gt;Overwatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Overwatch.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Overwatch.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="moderationLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="moderationLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="moderationLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="moderationLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 454</value>
+  </data>
+  <data name="moderationLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="moderationLable.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="moderationLable.Text" xml:space="preserve">
+    <value>Moderation</value>
+  </data>
+  <data name="&gt;&gt;moderationLable.Name" xml:space="preserve">
+    <value>moderationLable</value>
+  </data>
+  <data name="&gt;&gt;moderationLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;moderationLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;moderationLable.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="ViewHiddenGlobalBadges.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ViewHiddenGlobalBadges.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ViewHiddenGlobalBadges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 457</value>
+  </data>
+  <data name="ViewHiddenGlobalBadges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 17</value>
+  </data>
+  <data name="ViewHiddenGlobalBadges.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="ViewHiddenGlobalBadges.Text" xml:space="preserve">
+    <value>ViewHiddenGlobalBadges</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenGlobalBadges.Name" xml:space="preserve">
+    <value>ViewHiddenGlobalBadges</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenGlobalBadges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenGlobalBadges.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenGlobalBadges.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ViewHiddenBadges.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ViewHiddenBadges.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ViewHiddenBadges.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 433</value>
+  </data>
+  <data name="ViewHiddenBadges.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="ViewHiddenBadges.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="ViewHiddenBadges.Text" xml:space="preserve">
+    <value>ViewHiddenBadges</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenBadges.Name" xml:space="preserve">
+    <value>ViewHiddenBadges</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenBadges.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenBadges.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ViewHiddenBadges.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="badgesLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="badgesLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="badgesLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="badgesLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 409</value>
+  </data>
+  <data name="badgesLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="badgesLable.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="badgesLable.Text" xml:space="preserve">
+    <value>Badges</value>
+  </data>
+  <data name="&gt;&gt;badgesLable.Name" xml:space="preserve">
+    <value>badgesLable</value>
+  </data>
+  <data name="&gt;&gt;badgesLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;badgesLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;badgesLable.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="AdminChat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AdminChat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AdminChat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 431</value>
+  </data>
+  <data name="AdminChat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="AdminChat.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="AdminChat.Text" xml:space="preserve">
+    <value>AdminChat</value>
+  </data>
+  <data name="&gt;&gt;AdminChat.Name" xml:space="preserve">
+    <value>AdminChat</value>
+  </data>
+  <data name="&gt;&gt;AdminChat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdminChat.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;AdminChat.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="Announcer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Announcer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Announcer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 407</value>
+  </data>
+  <data name="Announcer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="Announcer.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="Announcer.Text" xml:space="preserve">
+    <value>Announcer</value>
+  </data>
+  <data name="&gt;&gt;Announcer.Name" xml:space="preserve">
+    <value>Announcer</value>
+  </data>
+  <data name="&gt;&gt;Announcer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Announcer.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Announcer.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="Broadcasting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Broadcasting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Broadcasting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 383</value>
+  </data>
+  <data name="Broadcasting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="Broadcasting.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="Broadcasting.Text" xml:space="preserve">
+    <value>Broadcasting</value>
+  </data>
+  <data name="&gt;&gt;Broadcasting.Name" xml:space="preserve">
+    <value>Broadcasting</value>
+  </data>
+  <data name="&gt;&gt;Broadcasting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Broadcasting.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Broadcasting.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="communicationLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="communicationLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="communicationLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="communicationLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 360</value>
+  </data>
+  <data name="communicationLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="communicationLable.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="communicationLable.Text" xml:space="preserve">
+    <value>Communication</value>
+  </data>
+  <data name="&gt;&gt;communicationLable.Name" xml:space="preserve">
+    <value>communicationLable</value>
+  </data>
+  <data name="&gt;&gt;communicationLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;communicationLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;communicationLable.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="Effects.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Effects.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Effects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 340</value>
+  </data>
+  <data name="Effects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="Effects.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="Effects.Text" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="&gt;&gt;Effects.Name" xml:space="preserve">
+    <value>Effects</value>
+  </data>
+  <data name="&gt;&gt;Effects.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Effects.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;Effects.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="PlayersManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PlayersManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PlayersManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 316</value>
+  </data>
+  <data name="PlayersManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="PlayersManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="PlayersManagement.Text" xml:space="preserve">
+    <value>PlayersManagement</value>
+  </data>
+  <data name="&gt;&gt;PlayersManagement.Name" xml:space="preserve">
+    <value>PlayersManagement</value>
+  </data>
+  <data name="&gt;&gt;PlayersManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlayersManagement.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;PlayersManagement.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="FacilityManagement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FacilityManagement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FacilityManagement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 389</value>
+  </data>
+  <data name="FacilityManagement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="FacilityManagement.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="FacilityManagement.Text" xml:space="preserve">
+    <value>FacilityManagement</value>
+  </data>
+  <data name="&gt;&gt;FacilityManagement.Name" xml:space="preserve">
+    <value>FacilityManagement</value>
+  </data>
+  <data name="&gt;&gt;FacilityManagement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FacilityManagement.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;FacilityManagement.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="RoundEvents.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RoundEvents.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RoundEvents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 366</value>
+  </data>
+  <data name="RoundEvents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 17</value>
+  </data>
+  <data name="RoundEvents.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="RoundEvents.Text" xml:space="preserve">
+    <value>RoundEvents</value>
+  </data>
+  <data name="&gt;&gt;RoundEvents.Name" xml:space="preserve">
+    <value>RoundEvents</value>
+  </data>
+  <data name="&gt;&gt;RoundEvents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RoundEvents.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;RoundEvents.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="RespawnEvents.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RespawnEvents.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RespawnEvents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 343</value>
+  </data>
+  <data name="RespawnEvents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="RespawnEvents.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="RespawnEvents.Text" xml:space="preserve">
+    <value>RespawnEvents</value>
+  </data>
+  <data name="&gt;&gt;RespawnEvents.Name" xml:space="preserve">
+    <value>RespawnEvents</value>
+  </data>
+  <data name="&gt;&gt;RespawnEvents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RespawnEvents.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;RespawnEvents.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="WarheadEvents.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="WarheadEvents.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="WarheadEvents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 320</value>
+  </data>
+  <data name="WarheadEvents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 17</value>
+  </data>
+  <data name="WarheadEvents.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="WarheadEvents.Text" xml:space="preserve">
+    <value>WarheadEvents</value>
+  </data>
+  <data name="&gt;&gt;WarheadEvents.Name" xml:space="preserve">
+    <value>WarheadEvents</value>
+  </data>
+  <data name="&gt;&gt;WarheadEvents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WarheadEvents.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;WarheadEvents.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="GivingItems.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GivingItems.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GivingItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 292</value>
+  </data>
+  <data name="GivingItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="GivingItems.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="GivingItems.Text" xml:space="preserve">
+    <value>GivingItems</value>
+  </data>
+  <data name="&gt;&gt;GivingItems.Name" xml:space="preserve">
+    <value>GivingItems</value>
+  </data>
+  <data name="&gt;&gt;GivingItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GivingItems.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;GivingItems.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="roundLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="roundLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="roundLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="roundLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 292</value>
+  </data>
+  <data name="roundLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="roundLable.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="roundLable.Text" xml:space="preserve">
+    <value>Round Manipulation</value>
+  </data>
+  <data name="&gt;&gt;roundLable.Name" xml:space="preserve">
+    <value>roundLable</value>
+  </data>
+  <data name="&gt;&gt;roundLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roundLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;roundLable.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="ForceclassWithoutRestrictions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ForceclassWithoutRestrictions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ForceclassWithoutRestrictions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 268</value>
+  </data>
+  <data name="ForceclassWithoutRestrictions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 17</value>
+  </data>
+  <data name="ForceclassWithoutRestrictions.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="ForceclassWithoutRestrictions.Text" xml:space="preserve">
+    <value>ForceclassWithoutRestrictions</value>
+  </data>
+  <data name="&gt;&gt;ForceclassWithoutRestrictions.Name" xml:space="preserve">
+    <value>ForceclassWithoutRestrictions</value>
+  </data>
+  <data name="&gt;&gt;ForceclassWithoutRestrictions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ForceclassWithoutRestrictions.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ForceclassWithoutRestrictions.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="ForceclassToSpectator.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ForceclassToSpectator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ForceclassToSpectator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 244</value>
+  </data>
+  <data name="ForceclassToSpectator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 17</value>
+  </data>
+  <data name="ForceclassToSpectator.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="ForceclassToSpectator.Text" xml:space="preserve">
+    <value>ForceclassToSpectator</value>
+  </data>
+  <data name="&gt;&gt;ForceclassToSpectator.Name" xml:space="preserve">
+    <value>ForceclassToSpectator</value>
+  </data>
+  <data name="&gt;&gt;ForceclassToSpectator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ForceclassToSpectator.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ForceclassToSpectator.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="ForceclassSelf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ForceclassSelf.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ForceclassSelf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>449, 221</value>
+  </data>
+  <data name="ForceclassSelf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="ForceclassSelf.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="ForceclassSelf.Text" xml:space="preserve">
+    <value>ForceclassSelf</value>
+  </data>
+  <data name="&gt;&gt;ForceclassSelf.Name" xml:space="preserve">
+    <value>ForceclassSelf</value>
+  </data>
+  <data name="&gt;&gt;ForceclassSelf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ForceclassSelf.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;ForceclassSelf.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="playerManipulationLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="playerManipulationLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="playerManipulationLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="playerManipulationLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 198</value>
+  </data>
+  <data name="playerManipulationLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 20</value>
+  </data>
+  <data name="playerManipulationLable.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="playerManipulationLable.Text" xml:space="preserve">
+    <value>Player Manipulation</value>
+  </data>
+  <data name="&gt;&gt;playerManipulationLable.Name" xml:space="preserve">
+    <value>playerManipulationLable</value>
+  </data>
+  <data name="&gt;&gt;playerManipulationLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playerManipulationLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;playerManipulationLable.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="LongTermBanning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LongTermBanning.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LongTermBanning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 268</value>
+  </data>
+  <data name="LongTermBanning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="LongTermBanning.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="LongTermBanning.Text" xml:space="preserve">
+    <value>LongTermBanning</value>
+  </data>
+  <data name="&gt;&gt;LongTermBanning.Name" xml:space="preserve">
+    <value>LongTermBanning</value>
+  </data>
+  <data name="&gt;&gt;LongTermBanning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LongTermBanning.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;LongTermBanning.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="banningLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="banningLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="banningLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="banningLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 198</value>
+  </data>
+  <data name="banningLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="banningLable.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="banningLable.Text" xml:space="preserve">
+    <value>Banning</value>
+  </data>
+  <data name="&gt;&gt;banningLable.Name" xml:space="preserve">
+    <value>banningLable</value>
+  </data>
+  <data name="&gt;&gt;banningLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;banningLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;banningLable.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="BanningUpToDay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BanningUpToDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BanningUpToDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 244</value>
+  </data>
+  <data name="BanningUpToDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 17</value>
+  </data>
+  <data name="BanningUpToDay.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="BanningUpToDay.Text" xml:space="preserve">
+    <value>BanningUpToDay</value>
+  </data>
+  <data name="&gt;&gt;BanningUpToDay.Name" xml:space="preserve">
+    <value>BanningUpToDay</value>
+  </data>
+  <data name="&gt;&gt;BanningUpToDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BanningUpToDay.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;BanningUpToDay.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="permsLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="permsLink.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="permsLink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="permsLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 167</value>
+  </data>
+  <data name="permsLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 24</value>
+  </data>
+  <data name="permsLink.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="permsLink.Text" xml:space="preserve">
+    <value>Role Permissions</value>
+  </data>
+  <data name="&gt;&gt;permsLink.Name" xml:space="preserve">
+    <value>permsLink</value>
+  </data>
+  <data name="&gt;&gt;permsLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;permsLink.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;permsLink.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="KickingAndShortTermBanning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="KickingAndShortTermBanning.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KickingAndShortTermBanning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 221</value>
+  </data>
+  <data name="KickingAndShortTermBanning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 17</value>
+  </data>
+  <data name="KickingAndShortTermBanning.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="KickingAndShortTermBanning.Text" xml:space="preserve">
+    <value>KickingAndShortTermBanning</value>
+  </data>
+  <data name="&gt;&gt;KickingAndShortTermBanning.Name" xml:space="preserve">
+    <value>KickingAndShortTermBanning</value>
+  </data>
+  <data name="&gt;&gt;KickingAndShortTermBanning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KickingAndShortTermBanning.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;KickingAndShortTermBanning.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="hiddenBox.Items" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="hiddenBox.Items1" xml:space="preserve">
+    <value>false</value>
+  </data>
+  <data name="hiddenBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 377</value>
+  </data>
+  <data name="hiddenBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 21</value>
+  </data>
+  <data name="hiddenBox.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;hiddenBox.Name" xml:space="preserve">
+    <value>hiddenBox</value>
+  </data>
+  <data name="&gt;&gt;hiddenBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hiddenBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;hiddenBox.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="colorBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 325</value>
+  </data>
+  <data name="colorBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="colorBox.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;colorBox.Name" xml:space="preserve">
+    <value>colorBox</value>
+  </data>
+  <data name="&gt;&gt;colorBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;colorBox.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="kickPowerBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 403</value>
+  </data>
+  <data name="kickPowerBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="kickPowerBox.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;kickPowerBox.Name" xml:space="preserve">
+    <value>kickPowerBox</value>
+  </data>
+  <data name="&gt;&gt;kickPowerBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kickPowerBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;kickPowerBox.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="requiredKickPowerBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 429</value>
+  </data>
+  <data name="requiredKickPowerBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="requiredKickPowerBox.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPowerBox.Name" xml:space="preserve">
+    <value>requiredKickPowerBox</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPowerBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPowerBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPowerBox.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="badgeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 299</value>
+  </data>
+  <data name="badgeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="badgeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;badgeBox.Name" xml:space="preserve">
+    <value>badgeBox</value>
+  </data>
+  <data name="&gt;&gt;badgeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;badgeBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;badgeBox.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="addRoleBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 172</value>
+  </data>
+  <data name="addRoleBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="addRoleBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="addRoleBox.Text" xml:space="preserve">
+    <value>Add role (internal name)</value>
+  </data>
+  <data name="&gt;&gt;addRoleBox.Name" xml:space="preserve">
+    <value>addRoleBox</value>
+  </data>
+  <data name="&gt;&gt;addRoleBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addRoleBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;addRoleBox.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="coverBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="coverBox.Items" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="coverBox.Items1" xml:space="preserve">
+    <value>false</value>
+  </data>
+  <data name="coverBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 351</value>
+  </data>
+  <data name="coverBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 21</value>
+  </data>
+  <data name="coverBox.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;coverBox.Name" xml:space="preserve">
+    <value>coverBox</value>
+  </data>
+  <data name="&gt;&gt;coverBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coverBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;coverBox.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="colorLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="colorLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="colorLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 328</value>
+  </data>
+  <data name="colorLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="colorLable.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="colorLable.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="&gt;&gt;colorLable.Name" xml:space="preserve">
+    <value>colorLable</value>
+  </data>
+  <data name="&gt;&gt;colorLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;colorLable.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="requiredKickPower.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="requiredKickPower.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="requiredKickPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 432</value>
+  </data>
+  <data name="requiredKickPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="requiredKickPower.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="requiredKickPower.Text" xml:space="preserve">
+    <value>Required Kick Power</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPower.Name" xml:space="preserve">
+    <value>requiredKickPower</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPower.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;requiredKickPower.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="kickPowerLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="kickPowerLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="kickPowerLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 406</value>
+  </data>
+  <data name="kickPowerLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="kickPowerLable.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="kickPowerLable.Text" xml:space="preserve">
+    <value>Kick Power</value>
+  </data>
+  <data name="&gt;&gt;kickPowerLable.Name" xml:space="preserve">
+    <value>kickPowerLable</value>
+  </data>
+  <data name="&gt;&gt;kickPowerLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;kickPowerLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;kickPowerLable.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="hiddenLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hiddenLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="hiddenLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 380</value>
+  </data>
+  <data name="hiddenLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="hiddenLable.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="hiddenLable.Text" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="&gt;&gt;hiddenLable.Name" xml:space="preserve">
+    <value>hiddenLable</value>
+  </data>
+  <data name="&gt;&gt;hiddenLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hiddenLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;hiddenLable.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="coverLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="coverLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="coverLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 354</value>
+  </data>
+  <data name="coverLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="coverLable.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="coverLable.Text" xml:space="preserve">
+    <value>Cover</value>
+  </data>
+  <data name="&gt;&gt;coverLable.Name" xml:space="preserve">
+    <value>coverLable</value>
+  </data>
+  <data name="&gt;&gt;coverLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;coverLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;coverLable.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="badgeLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="badgeLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="badgeLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 302</value>
+  </data>
+  <data name="badgeLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="badgeLable.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="badgeLable.Text" xml:space="preserve">
+    <value>Badge</value>
+  </data>
+  <data name="&gt;&gt;badgeLable.Name" xml:space="preserve">
+    <value>badgeLable</value>
+  </data>
+  <data name="&gt;&gt;badgeLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;badgeLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;badgeLable.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="removeRole.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="removeRole.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 172</value>
+  </data>
+  <data name="removeRole.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="removeRole.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="removeRole.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;removeRole.Name" xml:space="preserve">
+    <value>removeRole</value>
+  </data>
+  <data name="&gt;&gt;removeRole.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeRole.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;removeRole.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="addRoleButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="addRoleButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 172</value>
+  </data>
+  <data name="addRoleButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
+  </data>
+  <data name="addRoleButton.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="addRoleButton.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;addRoleButton.Name" xml:space="preserve">
+    <value>addRoleButton</value>
+  </data>
+  <data name="&gt;&gt;addRoleButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addRoleButton.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;addRoleButton.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="roleList.Items" xml:space="preserve">
+    <value>owner</value>
+  </data>
+  <data name="roleList.Items1" xml:space="preserve">
+    <value>admin</value>
+  </data>
+  <data name="roleList.Items2" xml:space="preserve">
+    <value>moderator</value>
+  </data>
+  <data name="roleList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 198</value>
+  </data>
+  <data name="roleList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 95</value>
+  </data>
+  <data name="roleList.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;roleList.Name" xml:space="preserve">
+    <value>roleList</value>
+  </data>
+  <data name="&gt;&gt;roleList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roleList.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;roleList.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="roles_text.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="roles_text.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="roles_text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="roles_text.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 143</value>
+  </data>
+  <data name="roles_text.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 25</value>
+  </data>
+  <data name="roles_text.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="roles_text.Text" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="&gt;&gt;roles_text.Name" xml:space="preserve">
+    <value>roles_text</value>
+  </data>
+  <data name="&gt;&gt;roles_text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roles_text.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;roles_text.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="northwood_perms.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="northwood_perms.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="northwood_perms.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="northwood_perms.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="northwood_perms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 25</value>
+  </data>
+  <data name="northwood_perms.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="northwood_perms.Text" xml:space="preserve">
+    <value>Northwood permissions</value>
+  </data>
+  <data name="&gt;&gt;northwood_perms.Name" xml:space="preserve">
+    <value>northwood_perms</value>
+  </data>
+  <data name="&gt;&gt;northwood_perms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;northwood_perms.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;northwood_perms.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="enable_banteam_bypass_geoblocking.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="enable_banteam_bypass_geoblocking.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="enable_banteam_bypass_geoblocking.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 123</value>
+  </data>
+  <data name="enable_banteam_bypass_geoblocking.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 17</value>
+  </data>
+  <data name="enable_banteam_bypass_geoblocking.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="enable_banteam_bypass_geoblocking.Text" xml:space="preserve">
+    <value>Allow the banning team to bypass georestrictions on the server</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_bypass_geoblocking.Name" xml:space="preserve">
+    <value>enable_banteam_bypass_geoblocking</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_bypass_geoblocking.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_bypass_geoblocking.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_bypass_geoblocking.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="enable_banteam_reserved_slots.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="enable_banteam_reserved_slots.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="enable_banteam_reserved_slots.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 100</value>
+  </data>
+  <data name="enable_banteam_reserved_slots.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 17</value>
+  </data>
+  <data name="enable_banteam_reserved_slots.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="enable_banteam_reserved_slots.Text" xml:space="preserve">
+    <value>Enable reserved slots for the banning team (they are restricted by reserved slots limit set in the gameplay config)</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_reserved_slots.Name" xml:space="preserve">
+    <value>enable_banteam_reserved_slots</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_reserved_slots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_reserved_slots.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_reserved_slots.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="enable_banteam_access.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="enable_banteam_access.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="enable_banteam_access.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 77</value>
+  </data>
+  <data name="enable_banteam_access.Size" type="System.Drawing.Size, System.Drawing">
+    <value>515, 17</value>
+  </data>
+  <data name="enable_banteam_access.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="enable_banteam_access.Text" xml:space="preserve">
+    <value>Allow remote admin access for the banning team, to allow them searching and fightung cheaters globally</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_access.Name" xml:space="preserve">
+    <value>enable_banteam_access</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_access.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_access.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_banteam_access.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="enable_manager_access.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="enable_manager_access.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="enable_manager_access.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 54</value>
+  </data>
+  <data name="enable_manager_access.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 17</value>
+  </data>
+  <data name="enable_manager_access.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="enable_manager_access.Text" xml:space="preserve">
+    <value>Should Secret Lab CEO and managers be able to use Remote Admin? (We do not abuse our powers) </value>
+  </data>
+  <data name="&gt;&gt;enable_manager_access.Name" xml:space="preserve">
+    <value>enable_manager_access</value>
+  </data>
+  <data name="&gt;&gt;enable_manager_access.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_manager_access.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_manager_access.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="enable_staff_access.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="enable_staff_access.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="enable_staff_access.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 31</value>
+  </data>
+  <data name="enable_staff_access.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 17</value>
+  </data>
+  <data name="enable_staff_access.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="enable_staff_access.Text" xml:space="preserve">
+    <value>Should Secret Lab development staff be able to use the Remote Admin?</value>
+  </data>
+  <data name="&gt;&gt;enable_staff_access.Name" xml:space="preserve">
+    <value>enable_staff_access</value>
+  </data>
+  <data name="&gt;&gt;enable_staff_access.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_staff_access.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;enable_staff_access.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="configTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 0</value>
+  </data>
+  <data name="configTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1061, 701</value>
+  </data>
+  <data name="configTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;configTabs.Name" xml:space="preserve">
+    <value>configTabs</value>
+  </data>
+  <data name="&gt;&gt;configTabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;configTabs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;configTabs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="raPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 244</value>
+  </data>
+  <data name="raPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 20</value>
+  </data>
+  <data name="raPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="raPassword.Text" xml:space="preserve">
+    <value>none</value>
+  </data>
+  <data name="&gt;&gt;raPassword.Name" xml:space="preserve">
+    <value>raPassword</value>
+  </data>
+  <data name="&gt;&gt;raPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;raPassword.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;raPassword.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="raPasswordInfoLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="raPasswordInfoLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 198</value>
+  </data>
+  <data name="raPasswordInfoLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 39</value>
+  </data>
+  <data name="raPasswordInfoLable.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="raPasswordInfoLable.Text" xml:space="preserve">
+    <value>Remote Admin Passoword
+Set to "none" in order to disable password.
+WE DON'T RECOMMEND USING PASSWORD!!!
+</value>
+  </data>
+  <data name="&gt;&gt;raPasswordInfoLable.Name" xml:space="preserve">
+    <value>raPasswordInfoLable</value>
+  </data>
+  <data name="&gt;&gt;raPasswordInfoLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;raPasswordInfoLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;raPasswordInfoLable.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="otherTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="otherTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="otherTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="otherTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 168</value>
+  </data>
+  <data name="otherTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 24</value>
+  </data>
+  <data name="otherTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="otherTitle.Text" xml:space="preserve">
+    <value>Other Configuration</value>
+  </data>
+  <data name="&gt;&gt;otherTitle.Name" xml:space="preserve">
+    <value>otherTitle</value>
+  </data>
+  <data name="&gt;&gt;otherTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;otherTitle.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;otherTitle.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="rolePassworldSelectBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 272</value>
+  </data>
+  <data name="rolePassworldSelectBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 21</value>
+  </data>
+  <data name="rolePassworldSelectBox.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;rolePassworldSelectBox.Name" xml:space="preserve">
+    <value>rolePassworldSelectBox</value>
+  </data>
+  <data name="&gt;&gt;rolePassworldSelectBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rolePassworldSelectBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;rolePassworldSelectBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="passwordLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="passwordLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 247</value>
+  </data>
+  <data name="passwordLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="passwordLable.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="passwordLable.Text" xml:space="preserve">
+    <value>Passoword:</value>
+  </data>
+  <data name="&gt;&gt;passwordLable.Name" xml:space="preserve">
+    <value>passwordLable</value>
+  </data>
+  <data name="&gt;&gt;passwordLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;passwordLable.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="rolePassordLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rolePassordLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 272</value>
+  </data>
+  <data name="rolePassordLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="rolePassordLable.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="rolePassordLable.Text" xml:space="preserve">
+    <value>Role:</value>
+  </data>
+  <data name="&gt;&gt;rolePassordLable.Name" xml:space="preserve">
+    <value>rolePassordLable</value>
+  </data>
+  <data name="&gt;&gt;rolePassordLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rolePassordLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;rolePassordLable.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="centralCommandsLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="centralCommandsLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 305</value>
+  </data>
+  <data name="centralCommandsLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 91</value>
+  </data>
+  <data name="centralCommandsLable.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="centralCommandsLable.Text" xml:space="preserve">
+    <value>Central Server Commands as Server Console Commands
+
+Allows running central server commands 
+(they are prefixed with "!") using "sudo"/"cron" 
+command in RA (requires ServerConsoleCommands permission).
+Don't turn on unless you fully trust all people with this permission,
+they needs to run that commands from RA and you know what are you doing</value>
+  </data>
+  <data name="&gt;&gt;centralCommandsLable.Name" xml:space="preserve">
+    <value>centralCommandsLable</value>
+  </data>
+  <data name="&gt;&gt;centralCommandsLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;centralCommandsLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;centralCommandsLable.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="allow_central_server_commands_as_ServerConsoleCommands.Items" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="allow_central_server_commands_as_ServerConsoleCommands.Items1" xml:space="preserve">
+    <value>false</value>
+  </data>
+  <data name="allow_central_server_commands_as_ServerConsoleCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 398</value>
+  </data>
+  <data name="allow_central_server_commands_as_ServerConsoleCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 21</value>
+  </data>
+  <data name="allow_central_server_commands_as_ServerConsoleCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="allow_central_server_commands_as_ServerConsoleCommands.Text" xml:space="preserve">
+    <value>false</value>
+  </data>
+  <data name="&gt;&gt;allow_central_server_commands_as_ServerConsoleCommands.Name" xml:space="preserve">
+    <value>allow_central_server_commands_as_ServerConsoleCommands</value>
+  </data>
+  <data name="&gt;&gt;allow_central_server_commands_as_ServerConsoleCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;allow_central_server_commands_as_ServerConsoleCommands.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;allow_central_server_commands_as_ServerConsoleCommands.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="playerList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 511</value>
+  </data>
+  <data name="playerList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 108</value>
+  </data>
+  <data name="playerList.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;playerList.Name" xml:space="preserve">
+    <value>playerList</value>
+  </data>
+  <data name="&gt;&gt;playerList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playerList.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;playerList.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 433</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="addPlayerBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 461</value>
+  </data>
+  <data name="addPlayerBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 20</value>
+  </data>
+  <data name="addPlayerBox.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="&gt;&gt;addPlayerBox.Name" xml:space="preserve">
+    <value>addPlayerBox</value>
+  </data>
+  <data name="&gt;&gt;addPlayerBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addPlayerBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;addPlayerBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="addPlayerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>847, 461</value>
+  </data>
+  <data name="addPlayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="addPlayerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="addPlayerButton.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;addPlayerButton.Name" xml:space="preserve">
+    <value>addPlayerButton</value>
+  </data>
+  <data name="&gt;&gt;addPlayerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addPlayerButton.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;addPlayerButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="removeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>928, 461</value>
+  </data>
+  <data name="removeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="removeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="removeButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Name" xml:space="preserve">
+    <value>removeButton</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeButton.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;removeButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="isDiscordId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isDiscordId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 488</value>
+  </data>
+  <data name="isDiscordId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 17</value>
+  </data>
+  <data name="isDiscordId.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="isDiscordId.Text" xml:space="preserve">
+    <value>Discord ID (unchecked is SteamId)</value>
+  </data>
+  <data name="&gt;&gt;isDiscordId.Name" xml:space="preserve">
+    <value>isDiscordId</value>
+  </data>
+  <data name="&gt;&gt;isDiscordId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isDiscordId.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;isDiscordId.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="playerRoleBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 625</value>
+  </data>
+  <data name="playerRoleBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 21</value>
+  </data>
+  <data name="playerRoleBox.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;playerRoleBox.Name" xml:space="preserve">
+    <value>playerRoleBox</value>
+  </data>
+  <data name="&gt;&gt;playerRoleBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playerRoleBox.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;playerRoleBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="roleLable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="roleLable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="roleLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 628</value>
+  </data>
+  <data name="roleLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="roleLable.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="roleLable.Text" xml:space="preserve">
+    <value>Role:</value>
+  </data>
+  <data name="&gt;&gt;roleLable.Name" xml:space="preserve">
+    <value>roleLable</value>
+  </data>
+  <data name="&gt;&gt;roleLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;roleLable.Parent" xml:space="preserve">
+    <value>raConf</value>
+  </data>
+  <data name="&gt;&gt;roleLable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1058, 703</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SCP:SL Server Configuration Editor</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainMenu</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
